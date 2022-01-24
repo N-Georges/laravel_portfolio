@@ -1,0 +1,10 @@
+@extends('layouts.index')
+@section('content')
+    @include('template.nav')
+    @include('template.hero')
+    @include('template.project')
+    @include('template.about')
+    @include('template.skills')
+    @include('template.contact')
+    @include('template.footer')
+@endsection
